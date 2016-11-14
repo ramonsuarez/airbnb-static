@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card-flat" style="background-image: url('<%= image_path infos.picture %>');">
+        <h3><%= image_tag infos.owner_picture, class: "img-thumbnail avatar-xlarge" %> <%= infos.owner_name %></h3>
+        <ul>
+          <li><%= infos.name %></li>
+          <li>Place: <%= infos.name %></li>
+          <li>Rooms: <%= infos.rooms %></li>
+          <li>City: <%= infos.city %></li>
+          <li>Wifi: <%= infos.wifi == true ? "Yes" : "No" %></li>
+          <li>Pets allowed? <%= infos.pets == true ? "Yes" : "No" %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
