@@ -1,17 +1,52 @@
 # data/flats.yml
 seb:
   owner_name: Sebastien Saunier
-  picture: http://placehold.it/150x150
-  owner_picture: http://placehold.it/150x150
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas optio omnis voluptatem ab in iusto, velit qui dolor quis atque laudantium rem. Fuga, aspernatur, sed deleniti tenetur recusandae delectus.
+  picture: flat-seb.jpg
+  owner_picture: seb.jpg
   name: Seb's home
   summary: Charming room in Montmartre
   city: Paris, France
   wifi: true
+  pets: false
+  rooms: 2
+  people: 2
+  bathrooms: 1
+  bed_type: "Kingsize"
+  beds: 1
+  type: "appartment"
+  room_type: "Room"
 romain:
   owner_name: Romain Paillard
-  picture: http://placehold.it/150x150
-  owner_picture: http://placehold.it/150x150
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas optio omnis voluptatem ab in iusto, velit qui dolor quis atque laudantium rem. Fuga, aspernatur, sed deleniti tenetur recusandae delectus.
+  picture: flat-romain.jpg
+  owner_picture: romain.jpeg
   name: Romain's home
   summary: Nice flat in Piccadilly
   city: London, UK
   wifi: false
+  pets: true
+  rooms: 5
+  people: 10
+  bathrooms: 3
+  bed_type: "Queen"
+  beds: 7
+  type: "house"
+  room_type: "Entire home/apt"
+anne:
+  owner_name: Sebastien Saunier
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas optio omnis voluptatem ab in iusto, velit qui dolor quis atque laudantium rem. Fuga, aspernatur, sed deleniti tenetur recusandae delectus.
+  picture: card-brussels.jpeg
+  owner_picture: anne.jpg
+  name: Anne's home
+  summary: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+  pets: false
+  rooms: 2
+  people: 2
+  bathrooms: 1
+  bed_type: "Kingsize"
+  beds: 1
+  type: "appartment"
+  room_type: "Room"
